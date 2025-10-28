@@ -28,16 +28,22 @@ Bem-vindo ao projeto **APi Rest - Produtos**. Este guia tem como objetivo ajudar
 ### 4. Executar o Projeto
 
 1. Abra seu PostMan ou Navegador
-## POST   
+## POST 
+```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{"descricao":"Teste","preco":5899.9,"marca":"Teste Marca"}' \
 http://localhost:8080/produtos
+```
 
 ## GET
+```bash
 curl http://localhost:8080/produtos
+```
 
 ## DELETE
+```bash
 curl -X DELETE http://localhost:8080/produtos/id
+```
 
 ## Problemas Comuns
 
