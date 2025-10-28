@@ -30,14 +30,14 @@ Bem-vindo ao projeto **APi Rest - Produtos**. Este guia tem como objetivo ajudar
 1. Abra seu PostMan ou Navegador
 ## POST   
 curl -X POST -H "Content-Type: application/json" \
--d '{"name":"Gutin","email":"gutin@exemplo.com"}' \
-http://localhost:8080/users
+-d '{"descricao":"Teste","preco":5899.9,"marca":"Teste Marca"}' \
+http://localhost:8080/produtos
 
 ## GET
-curl http://localhost:8080/users
+curl http://localhost:8080/produtos
 
 ## DELETE
-curl -X DELETE http://localhost:8080/users/1
+curl -X DELETE http://localhost:8080/produtos/id
 
 ## Problemas Comuns
 
