@@ -23,7 +23,20 @@ Bem-vindo ao projeto **APi Rest - Produtos**. Este guia tem como objetivo ajudar
 
 1. Pegue o Backup do banco na pasta `\backup`.
 2. Crie um Banco de dados no MySQL com o nome produtos
-3. Acesse o seu banco de dados MySQL e faça o backup 
+3. Acesse o seu banco de dados MySQL e faça o backup
+## Python
+```bash
+pip install fastapi uvicorn mysql-connector-python
+```
+
+```bash
+uvicorn main:app --reload
+````
+```
+A API vai rodar em:
+
+🌍 http://127.0.0.1:8000
+```
 
 ### 4. Executar o Projeto
 
