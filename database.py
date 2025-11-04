@@ -5,5 +5,5 @@ def get_connection():
         host="db-trab-api-rest.mysql.database.azure.com",
         user="admrest",
         password="Tr@b@lh0r3st",
-        database="db-api-rest"
+        database="produtos"
     )
