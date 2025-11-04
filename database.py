@@ -1,11 +1,9 @@
 import mysql.connector
-import os
 
 def get_connection():
-    conn = mysql.connector.connect(
-        host=os.environ.get('DB_HOST'),
-        user=os.environ.get('DB_USER'),
-        password=os.environ.get('DB_PASS'),
-        database=os.environ.get('DB_NAME')
+    return mysql.connector.connect(
+        host="db-trab-api-rest.mysql.database.azure.com",
+        user="admrest",
+        password="Tr@b@lh0r3st",
+        database="db-api-rest"
     )
-    return conn
